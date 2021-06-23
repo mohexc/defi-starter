@@ -4,7 +4,7 @@ const { interface, bytecode } = require('./compile')
 const colors = require('colors')
 
 const provider = new HDWalletProvider(
-  'decline treat earn juice execute journey habit exact about young rug deliver',
+  process.env.HD_WALLET,
   'https://rinkeby.infura.io/v3/300131588c504aa3a9c882b65e89e2c0'
 )
 
